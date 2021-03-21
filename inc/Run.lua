@@ -113,7 +113,7 @@ Cr_file = io.open("./inc/Token.txt", "w")
 Cr_file:write(Token)
 Cr_file:close() 
 print('\27[1;36m￤Token.txt is created.\27[m')
-local Text = "• أهلاً [المطور الاساسي](tg://user?id="..SUDO_USER..") \n• شكراً لأستخدام سورس بلانك \n• أرسل /start\n• لأظهار الاوامر المطور  المجهزه بالكيبورد\n\n."
+local Text = "• أهلاً [المطور الاساسي](tg://user?id="..SUDO_USER..") \n• شكراً لأستخدام سورس كويا \n• أرسل /start\n• لأظهار الاوامر المطور  المجهزه بالكيبورد\n\n."
 https.request(Api_Token..'/sendMessage?chat_id='..SUDO_USER..'&text='..URL.escape(Text)..'&parse_mode=Markdown')
 Souser = SUDO_USER:gsub('@','')
 Souser = Souser:gsub([[\_]],'_')
@@ -147,7 +147,7 @@ echo -e "\e[38;5;77m          ██    ██      ██            ██    
 echo -e "\e[38;5;77m          ███████     ██              ██      ███████     ██   █e[0m"
 echo -e "\e[38;5;77m                                                                      ███e[0m"
 
-echo -e "\e[38;5;77m       •{ SOURCE BLANK source has been installed }•\e[0m"
+echo -e "\e[38;5;77m       •{ SOURCE KOYA source has been installed }•\e[0m"
 echo -e "\e[38;5;77m       •{ developer JOKER : @eljo_ker_m  }•\e[0m"
 
 echo -e "\e[38;5;77m      BLANK ✾ @eljo_ker_me[0m"
